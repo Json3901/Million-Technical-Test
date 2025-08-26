@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealStatePortal.Domain", "RealStatePortal.Domain\RealStatePortal.Domain.csproj", "{ED1FD90F-2F77-4B1E-8ED9-AB8E76B3A8C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.Domain", "RealEstatePortal.Domain\RealEstatePortal.Domain.csproj", "{ED1FD90F-2F77-4B1E-8ED9-AB8E76B3A8C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealStatePortal.Application", "RealStatePortal.Application\RealStatePortal.Application.csproj", "{5DADD34C-639B-4621-9C8E-F5B64A453064}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.Application", "RealEstatePortal.Application\RealEstatePortal.Application.csproj", "{5DADD34C-639B-4621-9C8E-F5B64A453064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealStatePortal.Infrastructure", "RealStatePortal.Infrastructure\RealStatePortal.Infrastructure.csproj", "{3EC093FD-53C2-42DE-81F9-606EE4FFBEE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.Infrastructure", "RealEstatePortal.Infrastructure\RealEstatePortal.Infrastructure.csproj", "{3EC093FD-53C2-42DE-81F9-606EE4FFBEE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealStatePortal.API", "RealStatePortal.API\RealStatePortal.API.csproj", "{AD4CC4CC-33FF-4237-B34E-3EA4DBA6FCE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.API", "RealEstatePortal.API\RealEstatePortal.API.csproj", "{AD4CC4CC-33FF-4237-B34E-3EA4DBA6FCE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

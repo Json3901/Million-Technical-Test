@@ -1,0 +1,890 @@
+{
+  "Owners": [
+    {
+      "Id": "1",
+      "Name": "Juan Perez",
+      "Address": "Calle 123",
+      "Photo": "",
+      "Birthday": "1980-01-01T00:00:00",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "2",
+      "Name": "Ana Gomez",
+      "Address": "Avenida 456",
+      "Photo": "",
+      "Birthday": "1990-05-10T00:00:00",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "3",
+      "Name": "Carlos Ruiz",
+      "Address": "Diagonal 789",
+      "Photo": "",
+      "Birthday": "1985-03-15T00:00:00",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "4",
+      "Name": "Lucía Torres",
+      "Address": "Plaza 101",
+      "Photo": "",
+      "Birthday": "1975-07-22T00:00:00",
+      "CreatedAt": "2024-06-01T00:00:00"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "1",
+      "OwnerId": "1",
+      "Name": "Propiedad 1",
+      "Address": "Dirección 1",
+      "Price": 105000,
+      "InternalCode": "CODE001",
+      "Year": "2001",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "2",
+      "OwnerId": "2",
+      "Name": "Propiedad 2",
+      "Address": "Dirección 2",
+      "Price": 110000,
+      "InternalCode": "CODE002",
+      "Year": "2002",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "3",
+      "OwnerId": "3",
+      "Name": "Propiedad 3",
+      "Address": "Dirección 3",
+      "Price": 115000,
+      "InternalCode": "CODE003",
+      "Year": "2003",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "4",
+      "OwnerId": "4",
+      "Name": "Propiedad 4",
+      "Address": "Dirección 4",
+      "Price": 120000,
+      "InternalCode": "CODE004",
+      "Year": "2004",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "5",
+      "OwnerId": "1",
+      "Name": "Propiedad 5",
+      "Address": "Dirección 5",
+      "Price": 125000,
+      "InternalCode": "CODE005",
+      "Year": "2005",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "6",
+      "OwnerId": "2",
+      "Name": "Propiedad 6",
+      "Address": "Dirección 6",
+      "Price": 130000,
+      "InternalCode": "CODE006",
+      "Year": "2006",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "7",
+      "OwnerId": "3",
+      "Name": "Propiedad 7",
+      "Address": "Dirección 7",
+      "Price": 135000,
+      "InternalCode": "CODE007",
+      "Year": "2007",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "8",
+      "OwnerId": "4",
+      "Name": "Propiedad 8",
+      "Address": "Dirección 8",
+      "Price": 140000,
+      "InternalCode": "CODE008",
+      "Year": "2008",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "9",
+      "OwnerId": "1",
+      "Name": "Propiedad 9",
+      "Address": "Dirección 9",
+      "Price": 145000,
+      "InternalCode": "CODE009",
+      "Year": "2009",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "10",
+      "OwnerId": "2",
+      "Name": "Propiedad 10",
+      "Address": "Dirección 10",
+      "Price": 150000,
+      "InternalCode": "CODE010",
+      "Year": "2010",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "11",
+      "OwnerId": "3",
+      "Name": "Propiedad 11",
+      "Address": "Dirección 11",
+      "Price": 155000,
+      "InternalCode": "CODE011",
+      "Year": "2011",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "12",
+      "OwnerId": "4",
+      "Name": "Propiedad 12",
+      "Address": "Dirección 12",
+      "Price": 160000,
+      "InternalCode": "CODE012",
+      "Year": "2012",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "13",
+      "OwnerId": "1",
+      "Name": "Propiedad 13",
+      "Address": "Dirección 13",
+      "Price": 165000,
+      "InternalCode": "CODE013",
+      "Year": "2013",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "14",
+      "OwnerId": "2",
+      "Name": "Propiedad 14",
+      "Address": "Dirección 14",
+      "Price": 170000,
+      "InternalCode": "CODE014",
+      "Year": "2014",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "15",
+      "OwnerId": "3",
+      "Name": "Propiedad 15",
+      "Address": "Dirección 15",
+      "Price": 175000,
+      "InternalCode": "CODE015",
+      "Year": "2015",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "16",
+      "OwnerId": "4",
+      "Name": "Propiedad 16",
+      "Address": "Dirección 16",
+      "Price": 180000,
+      "InternalCode": "CODE016",
+      "Year": "2016",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "17",
+      "OwnerId": "1",
+      "Name": "Propiedad 17",
+      "Address": "Dirección 17",
+      "Price": 185000,
+      "InternalCode": "CODE017",
+      "Year": "2017",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "18",
+      "OwnerId": "2",
+      "Name": "Propiedad 18",
+      "Address": "Dirección 18",
+      "Price": 190000,
+      "InternalCode": "CODE018",
+      "Year": "2018",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "19",
+      "OwnerId": "3",
+      "Name": "Propiedad 19",
+      "Address": "Dirección 19",
+      "Price": 195000,
+      "InternalCode": "CODE019",
+      "Year": "2019",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "20",
+      "OwnerId": "4",
+      "Name": "Propiedad 20",
+      "Address": "Dirección 20",
+      "Price": 200000,
+      "InternalCode": "CODE020",
+      "Year": "2020",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "21",
+      "OwnerId": "1",
+      "Name": "Propiedad 21",
+      "Address": "Dirección 21",
+      "Price": 205000,
+      "InternalCode": "CODE021",
+      "Year": "2021",
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "22",
+      "OwnerId": "2",
+      "Name": "Propiedad 22",
+      "Address": "Dirección 22",
+      "Price": 210000,
+      "InternalCode": "CODE022",
+      "Year": "2022",
+      "CreatedAt": "2024-06-01T00:00:00"
+    }
+  ],
+  "PropertyImages": [
+    {
+      "Id": "1-1",
+      "PropertyId": "1",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "1-2",
+      "PropertyId": "1",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "2-1",
+      "PropertyId": "2",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "2-2",
+      "PropertyId": "2",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "3-1",
+      "PropertyId": "3",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "3-2",
+      "PropertyId": "3",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "4-1",
+      "PropertyId": "4",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "4-2",
+      "PropertyId": "4",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "5-1",
+      "PropertyId": "5",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "5-2",
+      "PropertyId": "5",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "6-1",
+      "PropertyId": "6",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "6-2",
+      "PropertyId": "6",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "7-1",
+      "PropertyId": "7",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "7-2",
+      "PropertyId": "7",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "8-1",
+      "PropertyId": "8",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "8-2",
+      "PropertyId": "8",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "9-1",
+      "PropertyId": "9",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "9-2",
+      "PropertyId": "9",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "10-1",
+      "PropertyId": "10",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "10-2",
+      "PropertyId": "10",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "11-1",
+      "PropertyId": "11",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "11-2",
+      "PropertyId": "11",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "12-1",
+      "PropertyId": "12",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "12-2",
+      "PropertyId": "12",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "13-1",
+      "PropertyId": "13",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "13-2",
+      "PropertyId": "13",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "14-1",
+      "PropertyId": "14",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "14-2",
+      "PropertyId": "14",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "15-1",
+      "PropertyId": "15",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "15-2",
+      "PropertyId": "15",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "16-1",
+      "PropertyId": "16",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "16-2",
+      "PropertyId": "16",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "17-1",
+      "PropertyId": "17",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "17-2",
+      "PropertyId": "17",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "18-1",
+      "PropertyId": "18",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "18-2",
+      "PropertyId": "18",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "19-1",
+      "PropertyId": "19",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "19-2",
+      "PropertyId": "19",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "20-1",
+      "PropertyId": "20",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "20-2",
+      "PropertyId": "20",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "21-1",
+      "PropertyId": "21",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "21-2",
+      "PropertyId": "21",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "22-1",
+      "PropertyId": "22",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "22-2",
+      "PropertyId": "22",
+      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    }
+  ],
+  "PropertyTraces": [
+    {
+      "Id": "1-T1",
+      "PropertyId": "1",
+      "DateSale": "2024-05-01T00:00:00",
+      "Name": "Venta Propiedad 1",
+      "Value": 105000,
+      "Tax": 5250,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "2-T1",
+      "PropertyId": "2",
+      "DateSale": "2024-05-02T00:00:00",
+      "Name": "Venta Propiedad 2",
+      "Value": 110000,
+      "Tax": 5500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "2-T2",
+      "PropertyId": "2",
+      "DateSale": "2024-04-02T00:00:00",
+      "Name": "Venta extra Propiedad 2",
+      "Value": 120000,
+      "Tax": 6000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "3-T1",
+      "PropertyId": "3",
+      "DateSale": "2024-05-03T00:00:00",
+      "Name": "Venta Propiedad 3",
+      "Value": 115000,
+      "Tax": 5750,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "4-T1",
+      "PropertyId": "4",
+      "DateSale": "2024-05-04T00:00:00",
+      "Name": "Venta Propiedad 4",
+      "Value": 120000,
+      "Tax": 6000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "4-T2",
+      "PropertyId": "4",
+      "DateSale": "2024-04-04T00:00:00",
+      "Name": "Venta extra Propiedad 4",
+      "Value": 130000,
+      "Tax": 6500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "5-T1",
+      "PropertyId": "5",
+      "DateSale": "2024-05-05T00:00:00",
+      "Name": "Venta Propiedad 5",
+      "Value": 125000,
+      "Tax": 6250,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "6-T1",
+      "PropertyId": "6",
+      "DateSale": "2024-05-06T00:00:00",
+      "Name": "Venta Propiedad 6",
+      "Value": 130000,
+      "Tax": 6500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "6-T2",
+      "PropertyId": "6",
+      "DateSale": "2024-04-06T00:00:00",
+      "Name": "Venta extra Propiedad 6",
+      "Value": 140000,
+      "Tax": 7000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "7-T1",
+      "PropertyId": "7",
+      "DateSale": "2024-05-07T00:00:00",
+      "Name": "Venta Propiedad 7",
+      "Value": 135000,
+      "Tax": 6750,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "8-T1",
+      "PropertyId": "8",
+      "DateSale": "2024-05-08T00:00:00",
+      "Name": "Venta Propiedad 8",
+      "Value": 140000,
+      "Tax": 7000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "8-T2",
+      "PropertyId": "8",
+      "DateSale": "2024-04-08T00:00:00",
+      "Name": "Venta extra Propiedad 8",
+      "Value": 150000,
+      "Tax": 7500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "9-T1",
+      "PropertyId": "9",
+      "DateSale": "2024-05-09T00:00:00",
+      "Name": "Venta Propiedad 9",
+      "Value": 145000,
+      "Tax": 7250,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "10-T1",
+      "PropertyId": "10",
+      "DateSale": "2024-05-10T00:00:00",
+      "Name": "Venta Propiedad 10",
+      "Value": 150000,
+      "Tax": 7500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "10-T2",
+      "PropertyId": "10",
+      "DateSale": "2024-04-10T00:00:00",
+      "Name": "Venta extra Propiedad 10",
+      "Value": 160000,
+      "Tax": 8000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "11-T1",
+      "PropertyId": "11",
+      "DateSale": "2024-05-11T00:00:00",
+      "Name": "Venta Propiedad 11",
+      "Value": 155000,
+      "Tax": 7750,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "12-T1",
+      "PropertyId": "12",
+      "DateSale": "2024-05-12T00:00:00",
+      "Name": "Venta Propiedad 12",
+      "Value": 160000,
+      "Tax": 8000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "12-T2",
+      "PropertyId": "12",
+      "DateSale": "2024-04-12T00:00:00",
+      "Name": "Venta extra Propiedad 12",
+      "Value": 170000,
+      "Tax": 8500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "13-T1",
+      "PropertyId": "13",
+      "DateSale": "2024-05-13T00:00:00",
+      "Name": "Venta Propiedad 13",
+      "Value": 165000,
+      "Tax": 8250,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "14-T1",
+      "PropertyId": "14",
+      "DateSale": "2024-05-14T00:00:00",
+      "Name": "Venta Propiedad 14",
+      "Value": 170000,
+      "Tax": 8500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "14-T2",
+      "PropertyId": "14",
+      "DateSale": "2024-04-14T00:00:00",
+      "Name": "Venta extra Propiedad 14",
+      "Value": 180000,
+      "Tax": 9000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "15-T1",
+      "PropertyId": "15",
+      "DateSale": "2024-05-15T00:00:00",
+      "Name": "Venta Propiedad 15",
+      "Value": 175000,
+      "Tax": 8750,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "16-T1",
+      "PropertyId": "16",
+      "DateSale": "2024-05-16T00:00:00",
+      "Name": "Venta Propiedad 16",
+      "Value": 180000,
+      "Tax": 9000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "16-T2",
+      "PropertyId": "16",
+      "DateSale": "2024-04-16T00:00:00",
+      "Name": "Venta extra Propiedad 16",
+      "Value": 190000,
+      "Tax": 9500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "17-T1",
+      "PropertyId": "17",
+      "DateSale": "2024-05-17T00:00:00",
+      "Name": "Venta Propiedad 17",
+      "Value": 185000,
+      "Tax": 9250,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "18-T1",
+      "PropertyId": "18",
+      "DateSale": "2024-05-18T00:00:00",
+      "Name": "Venta Propiedad 18",
+      "Value": 190000,
+      "Tax": 9500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "18-T2",
+      "PropertyId": "18",
+      "DateSale": "2024-04-18T00:00:00",
+      "Name": "Venta extra Propiedad 18",
+      "Value": 200000,
+      "Tax": 10000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "19-T1",
+      "PropertyId": "19",
+      "DateSale": "2024-05-19T00:00:00",
+      "Name": "Venta Propiedad 19",
+      "Value": 195000,
+      "Tax": 9750,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "20-T1",
+      "PropertyId": "20",
+      "DateSale": "2024-05-20T00:00:00",
+      "Name": "Venta Propiedad 20",
+      "Value": 200000,
+      "Tax": 10000,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "20-T2",
+      "PropertyId": "20",
+      "DateSale": "2024-04-20T00:00:00",
+      "Name": "Venta extra Propiedad 20",
+      "Value": 210000,
+      "Tax": 10500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "21-T1",
+      "PropertyId": "21",
+      "DateSale": "2024-05-21T00:00:00",
+      "Name": "Venta Propiedad 21",
+      "Value": 205000,
+      "Tax": 10250,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    },
+    {
+      "Id": "22-T1",
+      "PropertyId": "22",
+      "DateSale": "2024-05-22T00:00:00",
+      "Name": "Venta Propiedad 22",
+      "Value": 210000,
+      "Tax": 10500,
+      "Enabled": true,
+      "CreatedAt": "2024-06-01T00:00:00"
+    }
+  ]
+}

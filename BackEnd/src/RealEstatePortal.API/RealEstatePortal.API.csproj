@@ -4,10 +4,16 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>RealStatePortal.API</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RealEstatePortal.Application\RealEstatePortal.Application.csproj" />
+      <ProjectReference Include="..\RealEstatePortal.Infrastructure\RealEstatePortal.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
