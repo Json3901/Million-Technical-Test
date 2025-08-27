@@ -1,7 +1,7 @@
 {
   "Owners": [
     {
-      "Id": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f001",
       "Name": "Juan Perez",
       "Address": "Calle 123",
       "Photo": "",
@@ -9,7 +9,7 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f002",
       "Name": "Ana Gomez",
       "Address": "Avenida 456",
       "Photo": "",
@@ -17,7 +17,7 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "3",
+      "Id": "64b7f8e2c2a4e2a1b8d6f003",
       "Name": "Carlos Ruiz",
       "Address": "Diagonal 789",
       "Photo": "",
@@ -25,7 +25,7 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f004",
       "Name": "Lucía Torres",
       "Address": "Plaza 101",
       "Photo": "",
@@ -35,8 +35,8 @@
   ],
   "Properties": [
     {
-      "Id": "1",
-      "OwnerId": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f011",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f001",
       "Name": "Propiedad 1",
       "Address": "Dirección 1",
       "Price": 105000,
@@ -45,8 +45,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "2",
-      "OwnerId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f012",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f002",
       "Name": "Propiedad 2",
       "Address": "Dirección 2",
       "Price": 110000,
@@ -55,8 +55,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "3",
-      "OwnerId": "3",
+      "Id": "64b7f8e2c2a4e2a1b8d6f013",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f003",
       "Name": "Propiedad 3",
       "Address": "Dirección 3",
       "Price": 115000,
@@ -65,8 +65,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "4",
-      "OwnerId": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f014",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f004",
       "Name": "Propiedad 4",
       "Address": "Dirección 4",
       "Price": 120000,
@@ -75,8 +75,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "5",
-      "OwnerId": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f015",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f001",
       "Name": "Propiedad 5",
       "Address": "Dirección 5",
       "Price": 125000,
@@ -85,8 +85,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "6",
-      "OwnerId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f016",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f002",
       "Name": "Propiedad 6",
       "Address": "Dirección 6",
       "Price": 130000,
@@ -95,8 +95,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "7",
-      "OwnerId": "3",
+      "Id": "64b7f8e2c2a4e2a1b8d6f017",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f003",
       "Name": "Propiedad 7",
       "Address": "Dirección 7",
       "Price": 135000,
@@ -105,8 +105,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "8",
-      "OwnerId": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f018",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f004",
       "Name": "Propiedad 8",
       "Address": "Dirección 8",
       "Price": 140000,
@@ -115,8 +115,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "9",
-      "OwnerId": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f019",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f001",
       "Name": "Propiedad 9",
       "Address": "Dirección 9",
       "Price": 145000,
@@ -125,8 +125,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "10",
-      "OwnerId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f01a",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f002",
       "Name": "Propiedad 10",
       "Address": "Dirección 10",
       "Price": 150000,
@@ -135,8 +135,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "11",
-      "OwnerId": "3",
+      "Id": "64b7f8e2c2a4e2a1b8d6f01b",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f003",
       "Name": "Propiedad 11",
       "Address": "Dirección 11",
       "Price": 155000,
@@ -145,8 +145,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "12",
-      "OwnerId": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f01c",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f004",
       "Name": "Propiedad 12",
       "Address": "Dirección 12",
       "Price": 160000,
@@ -155,8 +155,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "13",
-      "OwnerId": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f01d",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f001",
       "Name": "Propiedad 13",
       "Address": "Dirección 13",
       "Price": 165000,
@@ -165,8 +165,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "14",
-      "OwnerId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f01e",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f002",
       "Name": "Propiedad 14",
       "Address": "Dirección 14",
       "Price": 170000,
@@ -175,8 +175,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "15",
-      "OwnerId": "3",
+      "Id": "64b7f8e2c2a4e2a1b8d6f01f",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f003",
       "Name": "Propiedad 15",
       "Address": "Dirección 15",
       "Price": 175000,
@@ -185,8 +185,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "16",
-      "OwnerId": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f020",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f004",
       "Name": "Propiedad 16",
       "Address": "Dirección 16",
       "Price": 180000,
@@ -195,8 +195,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "17",
-      "OwnerId": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f021",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f001",
       "Name": "Propiedad 17",
       "Address": "Dirección 17",
       "Price": 185000,
@@ -205,8 +205,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "18",
-      "OwnerId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f022",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f002",
       "Name": "Propiedad 18",
       "Address": "Dirección 18",
       "Price": 190000,
@@ -215,8 +215,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "19",
-      "OwnerId": "3",
+      "Id": "64b7f8e2c2a4e2a1b8d6f023",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f003",
       "Name": "Propiedad 19",
       "Address": "Dirección 19",
       "Price": 195000,
@@ -225,8 +225,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "20",
-      "OwnerId": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f024",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f004",
       "Name": "Propiedad 20",
       "Address": "Dirección 20",
       "Price": 200000,
@@ -235,8 +235,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "21",
-      "OwnerId": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f025",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f001",
       "Name": "Propiedad 21",
       "Address": "Dirección 21",
       "Price": 205000,
@@ -245,8 +245,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "22",
-      "OwnerId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f026",
+      "OwnerId": "64b7f8e2c2a4e2a1b8d6f002",
       "Name": "Propiedad 22",
       "Address": "Dirección 22",
       "Price": 210000,
@@ -257,318 +257,262 @@
   ],
   "PropertyImages": [
     {
-      "Id": "1-1",
-      "PropertyId": "1",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f111",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f011",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "1-2",
-      "PropertyId": "1",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f112",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f011",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "2-1",
-      "PropertyId": "2",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f121",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f012",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "2-2",
-      "PropertyId": "2",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f122",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f012",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "3-1",
-      "PropertyId": "3",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f131",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f013",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "3-2",
-      "PropertyId": "3",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f132",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f013",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "4-1",
-      "PropertyId": "4",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f141",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f014",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "4-2",
-      "PropertyId": "4",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f142",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f014",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "5-1",
-      "PropertyId": "5",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f151",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f015",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "5-2",
-      "PropertyId": "5",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f152",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f015",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "6-1",
-      "PropertyId": "6",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f161",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f016",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "6-2",
-      "PropertyId": "6",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f162",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f016",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "7-1",
-      "PropertyId": "7",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f171",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f017",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "7-2",
-      "PropertyId": "7",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f172",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f017",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "8-1",
-      "PropertyId": "8",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f181",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f018",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "8-2",
-      "PropertyId": "8",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f182",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f018",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "9-1",
-      "PropertyId": "9",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f191",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f019",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "9-2",
-      "PropertyId": "9",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f192",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f019",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "10-1",
-      "PropertyId": "10",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1a1",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01a",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "10-2",
-      "PropertyId": "10",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1a2",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01a",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "11-1",
-      "PropertyId": "11",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1b1",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01b",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "11-2",
-      "PropertyId": "11",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1b2",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01b",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "12-1",
-      "PropertyId": "12",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1c1",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01c",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "12-2",
-      "PropertyId": "12",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1c2",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01c",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "13-1",
-      "PropertyId": "13",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1d1",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01d",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "13-2",
-      "PropertyId": "13",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1d2",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01d",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "14-1",
-      "PropertyId": "14",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1e1",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01e",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "14-2",
-      "PropertyId": "14",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1e2",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01e",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "15-1",
-      "PropertyId": "15",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1f1",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01f",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "15-2",
-      "PropertyId": "15",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f1f2",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01f",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "16-1",
-      "PropertyId": "16",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f201",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f020",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "16-2",
-      "PropertyId": "16",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f202",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f020",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "17-1",
-      "PropertyId": "17",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f211",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f021",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "17-2",
-      "PropertyId": "17",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f212",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f021",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "18-1",
-      "PropertyId": "18",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f221",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f022",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/d7aafce10ecd42ee90f080c26210bf1c.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "18-2",
-      "PropertyId": "18",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "19-1",
-      "PropertyId": "19",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "19-2",
-      "PropertyId": "19",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "20-1",
-      "PropertyId": "20",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "20-2",
-      "PropertyId": "20",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "21-1",
-      "PropertyId": "21",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "21-2",
-      "PropertyId": "21",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "22-1",
-      "PropertyId": "22",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen1",
-      "Enabled": true,
-      "CreatedAt": "2024-06-01T00:00:00"
-    },
-    {
-      "Id": "22-2",
-      "PropertyId": "22",
-      "UrlFile": "https://via.placeholder.com/300x200.png?text=Imagen2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f222",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f022",
+      "UrlFile": "https://static.millionluxury.com/spinfile/Spin/Data/Estate/IMG/ecd67208329a42d1b7dbecc480c60e25.jpg",
       "Enabled": true,
       "CreatedAt": "2024-06-01T00:00:00"
     }
   ],
   "PropertyTraces": [
     {
-      "Id": "1-T1",
-      "PropertyId": "1",
+      "Id": "64b7f8e2c2a4e2a1b8d6f311",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f011",
       "DateSale": "2024-05-01T00:00:00",
       "Name": "Venta Propiedad 1",
       "Value": 105000,
@@ -577,8 +521,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "2-T1",
-      "PropertyId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f312",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f012",
       "DateSale": "2024-05-02T00:00:00",
       "Name": "Venta Propiedad 2",
       "Value": 110000,
@@ -587,8 +531,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "2-T2",
-      "PropertyId": "2",
+      "Id": "64b7f8e2c2a4e2a1b8d6f313",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f012",
       "DateSale": "2024-04-02T00:00:00",
       "Name": "Venta extra Propiedad 2",
       "Value": 120000,
@@ -597,8 +541,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "3-T1",
-      "PropertyId": "3",
+      "Id": "64b7f8e2c2a4e2a1b8d6f314",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f013",
       "DateSale": "2024-05-03T00:00:00",
       "Name": "Venta Propiedad 3",
       "Value": 115000,
@@ -607,8 +551,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "4-T1",
-      "PropertyId": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f315",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f014",
       "DateSale": "2024-05-04T00:00:00",
       "Name": "Venta Propiedad 4",
       "Value": 120000,
@@ -617,8 +561,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "4-T2",
-      "PropertyId": "4",
+      "Id": "64b7f8e2c2a4e2a1b8d6f316",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f014",
       "DateSale": "2024-04-04T00:00:00",
       "Name": "Venta extra Propiedad 4",
       "Value": 130000,
@@ -627,8 +571,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "5-T1",
-      "PropertyId": "5",
+      "Id": "64b7f8e2c2a4e2a1b8d6f317",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f015",
       "DateSale": "2024-05-05T00:00:00",
       "Name": "Venta Propiedad 5",
       "Value": 125000,
@@ -637,8 +581,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "6-T1",
-      "PropertyId": "6",
+      "Id": "64b7f8e2c2a4e2a1b8d6f318",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f016",
       "DateSale": "2024-05-06T00:00:00",
       "Name": "Venta Propiedad 6",
       "Value": 130000,
@@ -647,8 +591,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "6-T2",
-      "PropertyId": "6",
+      "Id": "64b7f8e2c2a4e2a1b8d6f319",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f016",
       "DateSale": "2024-04-06T00:00:00",
       "Name": "Venta extra Propiedad 6",
       "Value": 140000,
@@ -657,8 +601,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "7-T1",
-      "PropertyId": "7",
+      "Id": "64b7f8e2c2a4e2a1b8d6f31a",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f017",
       "DateSale": "2024-05-07T00:00:00",
       "Name": "Venta Propiedad 7",
       "Value": 135000,
@@ -667,8 +611,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "8-T1",
-      "PropertyId": "8",
+      "Id": "64b7f8e2c2a4e2a1b8d6f31b",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f018",
       "DateSale": "2024-05-08T00:00:00",
       "Name": "Venta Propiedad 8",
       "Value": 140000,
@@ -677,8 +621,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "8-T2",
-      "PropertyId": "8",
+      "Id": "64b7f8e2c2a4e2a1b8d6f31c",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f018",
       "DateSale": "2024-04-08T00:00:00",
       "Name": "Venta extra Propiedad 8",
       "Value": 150000,
@@ -687,8 +631,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "9-T1",
-      "PropertyId": "9",
+      "Id": "64b7f8e2c2a4e2a1b8d6f31d",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f019",
       "DateSale": "2024-05-09T00:00:00",
       "Name": "Venta Propiedad 9",
       "Value": 145000,
@@ -697,8 +641,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "10-T1",
-      "PropertyId": "10",
+      "Id": "64b7f8e2c2a4e2a1b8d6f31e",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01a",
       "DateSale": "2024-05-10T00:00:00",
       "Name": "Venta Propiedad 10",
       "Value": 150000,
@@ -707,8 +651,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "10-T2",
-      "PropertyId": "10",
+      "Id": "64b7f8e2c2a4e2a1b8d6f31f",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01a",
       "DateSale": "2024-04-10T00:00:00",
       "Name": "Venta extra Propiedad 10",
       "Value": 160000,
@@ -717,8 +661,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "11-T1",
-      "PropertyId": "11",
+      "Id": "64b7f8e2c2a4e2a1b8d6f320",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01b",
       "DateSale": "2024-05-11T00:00:00",
       "Name": "Venta Propiedad 11",
       "Value": 155000,
@@ -727,8 +671,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "12-T1",
-      "PropertyId": "12",
+      "Id": "64b7f8e2c2a4e2a1b8d6f321",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01c",
       "DateSale": "2024-05-12T00:00:00",
       "Name": "Venta Propiedad 12",
       "Value": 160000,
@@ -737,8 +681,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "12-T2",
-      "PropertyId": "12",
+      "Id": "64b7f8e2c2a4e2a1b8d6f322",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01c",
       "DateSale": "2024-04-12T00:00:00",
       "Name": "Venta extra Propiedad 12",
       "Value": 170000,
@@ -747,8 +691,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "13-T1",
-      "PropertyId": "13",
+      "Id": "64b7f8e2c2a4e2a1b8d6f323",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01d",
       "DateSale": "2024-05-13T00:00:00",
       "Name": "Venta Propiedad 13",
       "Value": 165000,
@@ -757,8 +701,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "14-T1",
-      "PropertyId": "14",
+      "Id": "64b7f8e2c2a4e2a1b8d6f324",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01e",
       "DateSale": "2024-05-14T00:00:00",
       "Name": "Venta Propiedad 14",
       "Value": 170000,
@@ -767,8 +711,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "14-T2",
-      "PropertyId": "14",
+      "Id": "64b7f8e2c2a4e2a1b8d6f325",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01e",
       "DateSale": "2024-04-14T00:00:00",
       "Name": "Venta extra Propiedad 14",
       "Value": 180000,
@@ -777,8 +721,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "15-T1",
-      "PropertyId": "15",
+      "Id": "64b7f8e2c2a4e2a1b8d6f326",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f01f",
       "DateSale": "2024-05-15T00:00:00",
       "Name": "Venta Propiedad 15",
       "Value": 175000,
@@ -787,8 +731,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "16-T1",
-      "PropertyId": "16",
+      "Id": "64b7f8e2c2a4e2a1b8d6f327",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f020",
       "DateSale": "2024-05-16T00:00:00",
       "Name": "Venta Propiedad 16",
       "Value": 180000,
@@ -797,8 +741,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "16-T2",
-      "PropertyId": "16",
+      "Id": "64b7f8e2c2a4e2a1b8d6f328",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f020",
       "DateSale": "2024-04-16T00:00:00",
       "Name": "Venta extra Propiedad 16",
       "Value": 190000,
@@ -807,8 +751,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "17-T1",
-      "PropertyId": "17",
+      "Id": "64b7f8e2c2a4e2a1b8d6f329",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f021",
       "DateSale": "2024-05-17T00:00:00",
       "Name": "Venta Propiedad 17",
       "Value": 185000,
@@ -817,8 +761,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "18-T1",
-      "PropertyId": "18",
+      "Id": "64b7f8e2c2a4e2a1b8d6f32a",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f022",
       "DateSale": "2024-05-18T00:00:00",
       "Name": "Venta Propiedad 18",
       "Value": 190000,
@@ -827,8 +771,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "18-T2",
-      "PropertyId": "18",
+      "Id": "64b7f8e2c2a4e2a1b8d6f32b",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f022",
       "DateSale": "2024-04-18T00:00:00",
       "Name": "Venta extra Propiedad 18",
       "Value": 200000,
@@ -837,8 +781,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "19-T1",
-      "PropertyId": "19",
+      "Id": "64b7f8e2c2a4e2a1b8d6f32c",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f023",
       "DateSale": "2024-05-19T00:00:00",
       "Name": "Venta Propiedad 19",
       "Value": 195000,
@@ -847,8 +791,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "20-T1",
-      "PropertyId": "20",
+      "Id": "64b7f8e2c2a4e2a1b8d6f32d",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f024",
       "DateSale": "2024-05-20T00:00:00",
       "Name": "Venta Propiedad 20",
       "Value": 200000,
@@ -857,8 +801,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "20-T2",
-      "PropertyId": "20",
+      "Id": "64b7f8e2c2a4e2a1b8d6f32e",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f024",
       "DateSale": "2024-04-20T00:00:00",
       "Name": "Venta extra Propiedad 20",
       "Value": 210000,
@@ -867,8 +811,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "21-T1",
-      "PropertyId": "21",
+      "Id": "64b7f8e2c2a4e2a1b8d6f32f",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f025",
       "DateSale": "2024-05-21T00:00:00",
       "Name": "Venta Propiedad 21",
       "Value": 205000,
@@ -877,8 +821,8 @@
       "CreatedAt": "2024-06-01T00:00:00"
     },
     {
-      "Id": "22-T1",
-      "PropertyId": "22",
+      "Id": "64b7f8e2c2a4e2a1b8d6f330",
+      "PropertyId": "64b7f8e2c2a4e2a1b8d6f026",
       "DateSale": "2024-05-22T00:00:00",
       "Name": "Venta Propiedad 22",
       "Value": 210000,
