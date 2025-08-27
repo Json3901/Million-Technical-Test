@@ -15,7 +15,7 @@ public class PropertyController : ControllerBase
         _propertyService = propertyService;
     }
 
-    [HttpGet("getPropertyDetail/{propertyId}")]
+    [HttpGet("{propertyId}")]
     public async Task<IActionResult> GetPropertyDetail(string propertyId)
     {
         var response = await _propertyService.GetPropertyDetail(propertyId);
