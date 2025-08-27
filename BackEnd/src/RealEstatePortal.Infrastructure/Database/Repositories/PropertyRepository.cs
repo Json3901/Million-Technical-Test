@@ -11,10 +11,16 @@ namespace RealEstatePortal.Infrastructure.Database.Repositories;
 public class PropertyRepository : MongoRepository<Property>, IPropertyRepository
 {
     private readonly IMongoRepository<Owner> _ownerRepository;
+    private readonly IMongoRepository<PropertyImage> _propertyImageRepository;
+    private readonly IMongoRepository<PropertyTrace> _propertyTraceRepository;
 
-    public PropertyRepository(IMongoDatabase database, IMongoRepository<Owner> ownerRepository) : base(database)
+    public PropertyRepository(IMongoDatabase database, IMongoRepository<Owner> ownerRepository,
+        IMongoRepository<PropertyImage> propertyImageRepository,
+        IMongoRepository<PropertyTrace> propertyTraceRepository) : base(database)
     {
         _ownerRepository = ownerRepository;
+        _propertyImageRepository = propertyImageRepository;
+        _propertyTraceRepository = propertyTraceRepository;
     }
 
     public async Task<PaginationDto<SearchPropertyResponse>> Search(SearchPropertyRequest request)
@@ -52,12 +58,38 @@ public class PropertyRepository : MongoRepository<Property>, IPropertyRepository
         return new PaginationDto<SearchPropertyResponse>(request.PageNumber, request.PageSize, count, searchProperties);
     }
 
+    public async Task<PropertyDetailResponse> GetPropertyDetail(string propertyId)
+    {
+        var property = await Collection.Find(p => p.Id == propertyId).FirstOrDefaultAsync();
+        if (property == null) return null;
+
+        var owner = await _ownerRepository.Find(o => o.Id == property.OwnerId);
+        var filterImages = Builders<PropertyImage>.Filter.Eq(x => x.PropertyId, property.Id);
+        var images = await _propertyImageRepository.Find(filterImages);
+        
+        var filterTraces = Builders<PropertyTrace>.Filter.Eq(x => x.PropertyId, property.Id);
+        var traces = await _propertyTraceRepository.Find(filterTraces);
+
+        return new PropertyDetailResponse
+        {
+            Name = property.Name,
+            Address = property.Address,
+            Price = property.Price,
+            Year = property.Year,
+            InternalCode = property.InternalCode,
+            Owner = owner.Name,
+            Images = images,
+            Traces = traces
+        };
+    }
+
     private static FilterDefinition<Property> GetNamesFilterDefinition(SearchPropertyRequest request,
         FilterDefinition<Property> filter)
     {
         if (request.Names.Length == 0) return filter;
         var regexFilters = request.Names
-            .Select(name => Builders<Property>.Filter.Regex(p => p.Name, new MongoDB.Bson.BsonRegularExpression(name, "i")));
+            .Select(name =>
+                Builders<Property>.Filter.Regex(p => p.Name, new MongoDB.Bson.BsonRegularExpression(name, "i")));
         var namesFilter = Builders<Property>.Filter.Or(regexFilters);
         filter = Builders<Property>.Filter.And(filter, namesFilter);
         return filter;
@@ -68,7 +100,8 @@ public class PropertyRepository : MongoRepository<Property>, IPropertyRepository
     {
         if (request.Addresses.Length == 0) return filter;
         var regexFilters = request.Addresses
-            .Select(address => Builders<Property>.Filter.Regex(p => p.Address, new MongoDB.Bson.BsonRegularExpression(address, "i")));
+            .Select(address =>
+                Builders<Property>.Filter.Regex(p => p.Address, new MongoDB.Bson.BsonRegularExpression(address, "i")));
         var addressesFilter = Builders<Property>.Filter.Or(regexFilters);
         filter = Builders<Property>.Filter.And(filter, addressesFilter);
         return filter;
@@ -91,7 +124,9 @@ public class PropertyRepository : MongoRepository<Property>, IPropertyRepository
     {
         if (request.InternalCodes.Length == 0) return filter;
         var regexFilters = request.InternalCodes
-            .Select(code => Builders<Property>.Filter.Regex(p => p.InternalCode, new MongoDB.Bson.BsonRegularExpression(code, "i")));
+            .Select(code =>
+                Builders<Property>.Filter.Regex(p => p.InternalCode,
+                    new MongoDB.Bson.BsonRegularExpression(code, "i")));
         var internalCodesFilter = Builders<Property>.Filter.Or(regexFilters);
         filter = Builders<Property>.Filter.And(filter, internalCodesFilter);
         return filter;
@@ -102,7 +137,8 @@ public class PropertyRepository : MongoRepository<Property>, IPropertyRepository
     {
         if (request.Years.Length == 0) return filter;
         var regexFilters = request.Years
-            .Select(year => Builders<Property>.Filter.Regex(p => p.Year.ToString(), new MongoDB.Bson.BsonRegularExpression(year.ToString(), "i")));
+            .Select(year => Builders<Property>.Filter.Regex(p => p.Year.ToString(),
+                new MongoDB.Bson.BsonRegularExpression(year.ToString(), "i")));
         var yearsFilter = Builders<Property>.Filter.Or(regexFilters);
         filter = Builders<Property>.Filter.And(filter, yearsFilter);
         return filter;
@@ -114,7 +150,8 @@ public class PropertyRepository : MongoRepository<Property>, IPropertyRepository
         if (request.OwnerNames.Length == 0) return filter;
 
         var regexFilters = request.OwnerNames
-            .Select(name => Builders<Owner>.Filter.Regex(o => o.Name, new MongoDB.Bson.BsonRegularExpression(name, "i")));
+            .Select(name =>
+                Builders<Owner>.Filter.Regex(o => o.Name, new MongoDB.Bson.BsonRegularExpression(name, "i")));
         var ownersFilter = Builders<Owner>.Filter.Or(regexFilters);
         var owners = await _ownerRepository.Find(ownersFilter);
         var ownerIds = owners.Select(o => o.Id).ToList();

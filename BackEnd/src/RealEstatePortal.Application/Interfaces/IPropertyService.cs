@@ -7,4 +7,5 @@ namespace RealStatePortal.Application.Interfaces;
 public interface IPropertyService
 {
     Task<PaginationDto<SearchPropertyResponse>> SearchProperties(SearchPropertyRequest request);
+    Task<PropertyDetailResponse> GetPropertyDetail(string propertyId);
 }

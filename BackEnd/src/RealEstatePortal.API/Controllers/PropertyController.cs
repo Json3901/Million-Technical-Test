@@ -5,7 +5,7 @@ using RealStatePortal.Application.Interfaces;
 namespace RealStatePortal.API.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class PropertyController : ControllerBase
 {
     private readonly IPropertyService _propertyService;
@@ -13,6 +13,13 @@ public class PropertyController : ControllerBase
     public PropertyController(IPropertyService propertyService)
     {
         _propertyService = propertyService;
+    }
+
+    [HttpGet("getPropertyDetail/{propertyId}")]
+    public async Task<IActionResult> GetPropertyDetail(string propertyId)
+    {
+        var response = await _propertyService.GetPropertyDetail(propertyId);
+        return Ok(response);
     }
 
     [HttpPost("search")]

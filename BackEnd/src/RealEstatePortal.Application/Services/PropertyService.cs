@@ -19,4 +19,9 @@ public class PropertyService : IPropertyService
     {
         return await _propertyRepository.Search(request);
     }
+    
+    public async Task<PropertyDetailResponse> GetPropertyDetail(string propertyId)
+    {
+        return await _propertyRepository.GetPropertyDetail(propertyId);
+    }
 }
