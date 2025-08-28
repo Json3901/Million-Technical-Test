@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.API", "RealEstatePortal.API\RealEstatePortal.API.csproj", "{AD4CC4CC-33FF-4237-B34E-3EA4DBA6FCE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.Infrastructure.Tests", "RealEstatePortal.Infrastructure.Tests\RealEstatePortal.Infrastructure.Tests.csproj", "{1FDD7365-B3F9-4B4A-8754-FA8B094138F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstatePortal.Application.Tests", "RealEstatePortal.Application.Tests\RealEstatePortal.Application.Tests.csproj", "{6B70A843-6CC8-4F9C-8567-B77FD4DB48C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{AD4CC4CC-33FF-4237-B34E-3EA4DBA6FCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD4CC4CC-33FF-4237-B34E-3EA4DBA6FCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD4CC4CC-33FF-4237-B34E-3EA4DBA6FCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDD7365-B3F9-4B4A-8754-FA8B094138F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDD7365-B3F9-4B4A-8754-FA8B094138F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDD7365-B3F9-4B4A-8754-FA8B094138F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDD7365-B3F9-4B4A-8754-FA8B094138F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B70A843-6CC8-4F9C-8567-B77FD4DB48C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B70A843-6CC8-4F9C-8567-B77FD4DB48C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B70A843-6CC8-4F9C-8567-B77FD4DB48C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B70A843-6CC8-4F9C-8567-B77FD4DB48C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -72,6 +72,7 @@ public class PropertyRepository : MongoRepository<Property>, IPropertyRepository
 
         return new PropertyDetailResponse
         {
+            Id = property.Id,
             Name = property.Name,
             Address = property.Address,
             Price = property.Price,
