@@ -12,7 +12,15 @@ public class MongoRepository<TEntity> : IMongoRepository<TEntity> where TEntity 
 
     public MongoRepository(IMongoDatabase database)
     {
-        Collection = database.GetCollection<TEntity>(GetCollectionName(typeof(TEntity)));
+        try
+        {
+            Collection = database.GetCollection<TEntity>(GetCollectionName(typeof(TEntity)));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error al obtener la colección '{GetCollectionName(typeof(TEntity))}': {e.Message}");
+            throw new ApplicationException($"No se pudo inicializar el repositorio para la entidad '{typeof(TEntity).Name}'.", e);
+        }
     }
 
     public async Task<TEntity> Find(Expression<Func<TEntity, bool>> filter)
