@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextField, Button, Box, Grid } from "@mui/material";
+import { TextField, Button, Box } from "@mui/material";
 
 type Filters = {
     name: string;
@@ -35,13 +35,16 @@ export const PropertyFilters: React.FC<Props> = ({ onFilterChange }) => {
 
     return (
         <Box component="form" onSubmit={handleSubmit} sx={{ mb: 2 }}>
-            <Grid
-                container
-                spacing={2}
-                justifyContent="center"
-                alignItems="center"
+            <Box
+                sx={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: 2,
+                    justifyContent: "center",
+                    alignItems: "center",
+                }}
             >
-                <Grid item xs={12} sm={6} md={3}>
+                <Box sx={{ flex: { xs: "1 1 100%", sm: "1 1 45%", md: "1 1 22%" } }}>
                     <TextField
                         name="name"
                         label="Nombre"
@@ -51,8 +54,8 @@ export const PropertyFilters: React.FC<Props> = ({ onFilterChange }) => {
                         size="small"
                         fullWidth
                     />
-                </Grid>
-                <Grid item xs={12} sm={6} md={3}>
+                </Box>
+                <Box sx={{ flex: { xs: "1 1 100%", sm: "1 1 45%", md: "1 1 22%" } }}>
                     <TextField
                         name="address"
                         label="Dirección"
@@ -62,8 +65,8 @@ export const PropertyFilters: React.FC<Props> = ({ onFilterChange }) => {
                         size="small"
                         fullWidth
                     />
-                </Grid>
-                <Grid item xs={12} sm={6} md={3}>
+                </Box>
+                <Box sx={{ flex: { xs: "1 1 100%", sm: "1 1 45%", md: "1 1 22%" } }}>
                     <TextField
                         name="minPrice"
                         label="Precio mínimo"
@@ -74,8 +77,8 @@ export const PropertyFilters: React.FC<Props> = ({ onFilterChange }) => {
                         size="small"
                         fullWidth
                     />
-                </Grid>
-                <Grid item xs={12} sm={6} md={3}>
+                </Box>
+                <Box sx={{ flex: { xs: "1 1 100%", sm: "1 1 45%", md: "1 1 22%" } }}>
                     <TextField
                         name="maxPrice"
                         label="Precio máximo"
@@ -86,13 +89,13 @@ export const PropertyFilters: React.FC<Props> = ({ onFilterChange }) => {
                         size="small"
                         fullWidth
                     />
-                </Grid>
-                <Grid item xs={12} md={12}>
+                </Box>
+                <Box sx={{ flex: "1 1 100%" }}>
                     <Button type="submit" variant="contained" color="primary" fullWidth>
                         Filtrar
                     </Button>
-                </Grid>
-            </Grid>
+                </Box>
+            </Box>
         </Box>
     );
 }

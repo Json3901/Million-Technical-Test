@@ -1,8 +1,8 @@
 import {baseUrl} from "../config/apiConfig";
 
-let service = "Property";
+const service = "Property";
 
-export async function getProperties(filters: any, page: number, pageSize: number) {
+export async function getProperties(filters: PropertyFilters, page: number, pageSize: number) {
     const body = {
         Names: filters.name ? [filters.name] : [],
         OwnerNames: filters.ownerName ? [filters.ownerName] : [],

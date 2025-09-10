@@ -28,18 +28,18 @@ services:
     volumes:
       - ./data/properties.json:/app/data/properties.json:ro
 
-  # frontend:
-  #   build: ./FrontEnd
-  #   container_name: realestateportal-frontend
-  #   restart: always
-  #   depends_on:
-  #     - backend
-  #   environment:
-  #     - NEXT_PUBLIC_API_URL=http://backend:8080
-  #   ports:
-  #     - "3000:3000"
-  #   volumes:
-  #     - ./FrontEnd:/src
+  frontend:
+    build:
+      context: ./FrontEnd/real-estate-portal
+      dockerfile: Dockerfile
+    container_name: realestateportal-frontend
+    restart: always
+    depends_on:
+      - backend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8080
+    ports:
+      - "3000:3000"
 
 volumes:
   mongo_data:

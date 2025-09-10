@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getProperties } from "../services/propertyService";
 
-export function useProperties(filters, page = 1, pageSize = 10) {
+export function useProperties(filters: PropertyFilters, page = 1, pageSize = 10) {
     const [data, setData] = useState({
         items: [],
         count: 0,
